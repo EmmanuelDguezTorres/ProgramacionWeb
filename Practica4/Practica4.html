@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="description" content="Formulario-Practica4" />
+	<meta name="keywords" content="Taller de programacion web" />
+	<meta name="author" content="EmmanuelDguezTorres" />
+<title>Formulario-Practica 4</title>
+</head>
+<body>
+<h1>Contacto.</h1>
+	<form method="post" action="">
+		<fieldset>
+			<legend>Datos Personales</legend>
+			<label for="nombre">Nombre:</label>
+			<input type="text" id="nombre" name="nombre">
+			<br/>
+			<label for="mail">Correo:</label>
+			<input type="email" id="mail" name="mail" />
+			<br/>	
+			<label for="telefono">Telefono:</label>
+			<input type="tel" id="telefono" name="telefono" />
+			<br/>
+		</fieldset>
+		<fieldset>
+			<legend>Region</legend>
+			<label for="estados">Estados:</estados>
+			<select name="estados">
+				<option selected="0"> elige una opcion: </option>
+			    <option value="1">Aguascalientes</option>
+			   	<option value="2">Baja California</option>
+			    <option value="3">Baja California Sur</option>
+			    <option value="4">Campeche</option>
+			    <option value="5">Chiapas</option>
+			    <option value="6">Chihuahua</option>
+			    <option value="7">Coahuila</option>
+			    <option value="8">Colima</option>
+			    <option value="9">Distrito Federal</option>
+			    <option value="10">Durango</option>
+			    <option value="11">Estado de Mexico</option>
+			    <option value="12">Guanajuato</option>
+			    <option value="13">Guerrero</option>
+			    <option value="14">Hidalgo</option>
+			    <option value="15">Jalisco</option>
+			    <option value="16">Michoacan</option>
+			    <option value="17">Morelos</option>
+			    <option value="18">Nayarit</option>
+			    <option value="19">Nuevo Leon</option>
+			    <option value="20">Oaxaca</option>
+			    <option value="21">Puebla</option>
+			    <option value="22">Queretaro</option>
+			    <option value="23">Quintana Roo</option>
+			    <option value="24">San Luis Potosi</option>
+			    <option value="25">Sinaloa</option>
+			    <option value="26">Sonora</option>
+			    <option value="27">Tabasco</option>
+			    <option value="28">Tamaulipas</option>
+			    <option value="29">Tlaxcala</option>
+			    <option value="30">Veracruz</option>
+			    <option value="31">Yucatan</option>
+			    <option value="32">Zacatecas</option>	
+			</select>
+			<br/>
+			<label for="colonia">Colonia:</label>
+			<input type="text" id="colonia" name="colonia">
+			<br/>
+		</fieldset>
+		<fieldset>
+			<legend>Intereses</legend>
+				<input type="checkbox" name="transporte" value="Programacion"> Programacion</input>
+				<input type="checkbox" name="transporte" value="Deportes">  Deportes</input>
+				<input type="checkbox" name="transporte" value="Comida">  Comida</input>
+				<input type="checkbox" name="transporte" value="Lectura">  Lectura</input>
+		</fieldset>
+		<button name="guardar" type="submit" value="Guardar" >Guardar</button>
+	</form>
+</body>
+</html>

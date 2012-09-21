@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="description" content="Practica10-(CompletarRegistro-Practica6)" />
+	<meta name="keywords" content="Taller de programacion web" />
+	<meta name="author" content="EmmanuelDguezTorres" />
+	
+	<script src="../js/jquery-1.8.2.min.js"></script>
+	<script src="../js/jscode.js" ></script>
+
+	<title>CompletarRegistro-Practica10-p6</title>
+</head>
+<body>
+	<form method="post" action="">
+		<fieldset>
+			<legend>Queremos saber mas de ti</legend>
+			<fieldset>
+				<legend>Quien eres...</legend>
+				<label for="nombre">Tu Nombre:</label>
+				<div name="nombre">
+					<input type="text" name="nombre" placeholder="Nombre." size="25"/>
+					<input type="text" name="apellidos" placeholder="Apellidos." size="35"/>
+				</div>
+				<label for="bday">Cumpleaños:</label>
+				<input type="date" name=""/>
+				<br/>
+				<label for="sexo">Sexo:</label>
+				<input type="radio" checked="checked" name="sexo" value="Mujer" />
+				<input type="radio" name="sexo" value="Hombre"/>
+				<br/>
+				<label for="direccion">Donde vives:</label>
+				<div name="direccion">
+					<input type="text" name="calles" placeholder="Calle." size="30"/>
+					<input type="text" name="numero" placeholder="Numero." size="10"/>
+					<input type="text" name="cpostal" placeholder="Codigo Postal." size="15"/>
+				</div>
+				<br/>
+				<label for="tel">Telefono:</label>
+				<input type="tel" name="" placeholder="(000)-00-0-00-00" size="20"/>
+				<br/>
+			</fieldset>
+			<fieldset>
+				<legend>Por que estas aqui...</legend>
+				    <input type="checkbox"  name="motivo" value="Aburrimiento">Aburrimiento</input>
+				   	<input type="checkbox"  name="motivo" value="Necesidad">Necesidad</input>
+				    <input type="checkbox"  name="motivo" value="Mandato Divino">Mandato Divino</input>
+				    <input type="checkbox"  name="motivo" value="Acosar otros usuarios">Acosar otros usuarios</input>
+				    <input type="checkbox"  name="motivo" value="Por que puedo">Por que puedo</input>
+			</fieldset>
+			<fieldset>
+				<legend>Como es tu lindo rostro</legend>
+				   <input id="imagen" type="file" accept="image/gif/jpeg" />
+			</fieldset>
+			<button type="reset" name="clear" >Limpiar</button>
+			<button type="submit" name="Enviar">Enviar</button>
+		</fieldset>
+	</form>
+</body>
+</html>
+
